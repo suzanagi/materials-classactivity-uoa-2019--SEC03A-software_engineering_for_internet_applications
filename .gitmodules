@@ -1,0 +1,3 @@
+[submodule "GreatHotels"]
+	path = GreatHotels
+	url = https://github.com/suzanagi/app-sample-django-hotel_booking_site.git

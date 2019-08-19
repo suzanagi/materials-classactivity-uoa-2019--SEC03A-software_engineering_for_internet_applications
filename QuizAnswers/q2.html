@@ -1,0 +1,8 @@
+<html><body>
+<ol>
+<li>When database schema is changed (you create new database objects or remove/modify existing objects).</li>
+<li>To make them really <i>convenient</i> you have to define your own <tt>__str__()</tt> function.</li>
+<li>Obviously, one needs to have a class <tt>Car</tt> and declare the <tt>owner</tt> field as a foreign key there. However, this does not let you access the list of cars of the given owner. To do it you need to specify <tt>related_name='cars'</tt> when declaring the foreign key. In this case you'll be able to use <tt>owner.cars</tt> syntax.</li>
+<li>Yes.</li>
+</ol>
+</body></html>
